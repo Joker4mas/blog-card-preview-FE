@@ -136,3 +136,40 @@ h1:hover {
         font-size: .9em;
     }
 }
+
+@media screen and (max-width: 254px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .illustration {
+        width: 100%;
+        height: 40%;
+        margin-bottom: .5rem;
+        border-radius: 1rem;
+    }
+
+    .pub-learn button {
+        padding: .5rem;
+    }
+
+    h1 {
+        font-size: .8em;
+    }
+
+    .text-preview {
+        color: hsl(0, 0%, 42%);
+        font-size: .7em;
+        width: fit-content;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .pub-learn p {
+        font-size: .5em;
+    }
+
+
+}
