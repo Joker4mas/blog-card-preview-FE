@@ -119,4 +119,20 @@ h1:hover {
         width: 90%;
         margin: auto;
     }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .text-preview {
+        color: hsl(0, 0%, 42%);
+        font-size: .9em;
+        width: fit-content;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .pub-learn p {
+        font-size: .9em;
+    }
 }
