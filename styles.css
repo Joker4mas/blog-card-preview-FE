@@ -29,7 +29,8 @@ body {
 
 .container {
     display: flex;
-    width: 30%;
+    max-width: 30%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     border: 2px solid hsl(0, 0%, 7%);
